@@ -3,14 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "FxCopCmd", "%VSINSTALLDIR%\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe", "{75BE1707-2B26-411A-A33C-9EB17FAE89D4}"
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "FxCopCmd", "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\FxCopCmd.exe", "{75BE1707-2B26-411A-A33C-9EB17FAE89D4}"
 	ProjectSection(DebuggerProjectSystem) = preProject
 		PortSupplier = 00000000-0000-0000-0000-000000000000
 		Executable = C:\Program Files (x86)\Microsoft Visual Studio 12.0\Team Tools\Static Analysis Tools\FxCop\fxcopcmd.exe
 		RemoteMachine = 
 		StartingDirectory = C:\
 		Arguments = /file:%PROJECTROOTFOLDER%\DebugTargetForFxCopCmd\bin\Debug\DebugTargetForFxCopCmd.exe /rule:%PROJECTROOTFOLDER%\CodeContractNullabilityFxCopRules\bin\x86\Debug\CodeContractNullabilityFxCopRules.dll /console
-		Environment = projectrootfolder=D:\Projects\ResharperCodeContractNullabilityFxCop\src	vsinstalldir=C:\Program Files (x86)\Microsoft Visual Studio 12.0	
+		Environment = projectrootfolder=C:\Projects\ResharperCodeContractNullabilityFxCop\src	vsinstalldir=C:\Program Files (x86)\Microsoft Visual Studio 12.0	
 		LaunchingEngine = 00000000-0000-0000-0000-000000000000
 		LaunchSQLEngine = No
 		AttachLaunchAction = No
