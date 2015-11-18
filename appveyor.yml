@@ -2,7 +2,8 @@ os: Visual Studio 2013
 
 version: 1.0.{build}
 
-configuration: Release
+install:
+- ps: (New-Object Net.WebClient).DownloadFile('https://dist.nuget.org/win-x86-commandline/v3.2.0/nuget.exe', "C:\Tools\NuGet\nuget.exe")
 
 pull_requests: 
   do_not_increment_build_number: true 
